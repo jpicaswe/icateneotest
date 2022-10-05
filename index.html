@@ -1,12 +1,40 @@
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-  <p> frontend edited 3:30</p>
-    <p id="scriptdata"></p>
-      <script src="./teneo-extension-example.js"></script>
+<!DOCTYPE html>
+<html lang="sv">
 
-  </body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>IT Support - Mica - QA</title>
+
+
+    <link rel="SHORTCUT ICON" href="https://assets.icanet.se/EPI-assets/favicon.ico" />
+
+    <!-- msal.min.js can be used in the place of msal.js; included msal.js to make debug easy -->
+    <script id="load-msal" src="https://alcdn.msauth.net/browser/2.15.0/js/msal-browser.js" integrity="sha384-dFzMiVGB5HpWZ+5w5VSif6jhWfNeplSw9ACYmQKZcY2azuT9kCxVWVI9HyfGdkHV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Teneo Web Chat start -->
+    <link rel="stylesheet" type="text/css" href="https://digital-assistant-qa.ica.se/it/frontend/teneo-web-chat-itkoncern.css" />
+
+
+    <div id="teneo-web-chat"></div>
+
+    <!-- TWC core code -->
+    <script src="https://digital-assistant-qa.ica.se/it/frontend/teneo-web-chat.js"></script>
+
+    <!-- Mitel chat handler -->
+    <script src="https://digital-assistant-qa.ica.se/it/frontend/MitelChatHandler.js"></script>
+    <script src="https://digital-assistant-qa.ica.se/it/frontend/mitel-extensions-copy.js"></script>
+
+
+    <script src="https://digital-assistant-qa.ica.se/it/frontend/twc-extensions-worknet.js"></script>
+
+    <!-- TWC Initialization script -->
+    <script src="https://digital-assistant-qa.ica.se/it/frontend/twc-init-qa.js"></script>
+
+    <!-- Teneo Web Chat end -->
+</body>
+
 </html>
